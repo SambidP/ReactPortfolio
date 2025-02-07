@@ -4,6 +4,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
+import 'leaflet/dist/leaflet.css';
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -100,6 +101,7 @@ const Contact = () => {
         </div>
         <div className='map-wrap'>
           <MapContainer center={[27.75925, 85.32995]} zoom={13}>
+          {/* <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" /> */}
             <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />
             <Marker position={[27.75925, 85.32995]} >
             <Popup></Popup>
