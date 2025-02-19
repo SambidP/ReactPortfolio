@@ -15,10 +15,10 @@ const Logo = () => {
             await bgControls.start({ opacity: 1, transition: { duration: 1 } });
 
             // Animate outline logo drawing
-            await outlineLogoControls.start({ pathLength: 1, transition: { duration: 20 } });
-
-            // Animate solid logo opacity after outline is done
-            await solidLogoControls.start({ opacity: 1, transition: { duration: 4 } });
+            await Promise.all([
+              outlineLogoControls.start({ pathLength: 1, transition: { duration: 10 } }),
+              solidLogoControls.start({ opacity: 1, transition: { delay: 3, duration: 5 } }) // Start fading earlier
+          ])
         };
 
         sequence();
