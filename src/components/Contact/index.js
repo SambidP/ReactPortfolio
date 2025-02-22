@@ -63,9 +63,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            For those who face problem in useEffect, setTimeout 40:06 remove
-            return from setTimeout and add return in setLetterClass. I hope this
-            will solve your problem
+          Feel free to reach out to me for collaboration, project inquiries, or just a tech chat! Whether you have a challenging idea or need a passionate developer, I’d love to connect. You can reach me at sambidp@gmail.com or find me on LinkedIn and GitHub. Let's build something great together! 🚀
           </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>

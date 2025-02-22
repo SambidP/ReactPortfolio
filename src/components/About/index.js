@@ -34,19 +34,13 @@ const About = () => {
           />
         </h1>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+        I am a Software Engineer with a strong foundation in JavaScript, React, Laravel, and AI-driven technologies. My expertise lies in developing efficient, scalable, and user-friendly applications, with a focus on clean code and modern development practices.
         </p>
         <p>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout.
+        With experience in front-end and back-end development, I have worked extensively with React for dynamic UI design and Laravel for robust API and backend solutions. 
         </p>
         <p>
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which don't look even slightly believable.
+        I am always exploring new technologies, frameworks, and methodologies to stay ahead in the evolving tech landscape. Passionate about problem-solving and innovation, I strive to create impactful digital experiences that blend technology with seamless functionality.
         </p>
       </div>
 
